@@ -1,0 +1,4 @@
+If we assume that the voltage on each LED is 5V and the current is 80 mA to be safe and the resistor is in series to the LED then:
+We can use Ohm's law to get the voltage across the resistor = 330 Ohm * 80 mA = 26.4V
+Then the power usage of each row = (5V * 80mA) + (26.4v * 80mA) = 2.512W
+the the number of rows (LEDs in parallel) = 1440/2.512 = 573.25 which is about 573 LEDs

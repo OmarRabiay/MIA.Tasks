@@ -1,0 +1,14 @@
+List of components:
+1. 4 Motors = 4*4A = 16A, 12V, Power = 192W
+2. Camera = 0.5A , 12V, Power = 6W
+Total power consumption = 198W
+The energy required to power this system for 1h = 198Wh
+Then we need for 0.5h = 99Wh
+Then the battery required must at least be 12V 8.25Ah
+As a safty measure we will search for a 12V 9Ah battery
+If we search locally in Egypt we would find :
+- (Ultra cell) 12V 9Ah Lead Acid battery for 1,150 EGP on Amazon
+This is the most cost efficient option but it is heavy and bulky but cyborg's body would handle it with ease.
+If we search internationally We would find:
+-(Ionic) 12V 9Ah Lithium LiFePO4 battery for 99$
+This option is massivly more expensive but it is 70% lighter and has two to four times the service life giving cyborg more mobility and longer lasting time before having to replace it later.

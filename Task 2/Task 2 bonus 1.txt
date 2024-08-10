@@ -1,0 +1,6 @@
+1) The resistance of the wire is considered to be a power sink but it is neglected in theory we can decrease the wasted power by decreasing the length of the wire and increasing its cross section area.
+2) The power usage of AVs isn't constant as the cooling system stops working when the temperature reaches the desire and it is required to close doors and windows in order to trap the cool air to let the system rest and decrease power usage.
+3) Current = C-rate * Charge = 50 * 5000 mAh = 250000 mA = 250 A.
+--------------------------------------
+Q5- No, The internal resistance of LiPO batterys range from 0.001 Ohm to 0.004 Ohm.
+Q6- We can use the discharge method, This method involves discharging the battery at a known current and measuring the time it takes for the voltage to drop to a certain level. The capacity is then calculated by multiplying the current by the time.
