@@ -1,0 +1,19 @@
+If we assume that my household has :
+10 Lamps = 10 * 6W = 60W for 10 Hours/day
+2 TVs = 2 * 100W = 200W for 5 Hours/day
+1 Fridge = 65W for 24 Hours/day
+2 ACs = 2 * 1000W = 2000W for 8 Hours/day
+2 Fans = 2 * 100W = 200W for 4 Hours/day
+1 Laptop = 200W for 5 Hours/day
+Then the total Watthour for day is 21 KWh
+The total power consumtion for  month is 630 KWh
+If the cost per KWh from 351 KWh to 650 KWh is 1.4 EGP
+Then the total cost is 882 EGP
+We can reduce this poer consumtion be decreasing the usage of:
+ACs for only 3 hours each
+TVs for only 2 hours each
+That would make a HUGE diffrence
+Then the total power consumtion would be 310 KWh
+If the cost per KWh from 201 KWh to 350 KWh is 1.25 EGP
+Then the total cost is 387.5 EGP
+That is less the half :)
