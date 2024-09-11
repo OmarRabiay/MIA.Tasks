@@ -27,7 +27,7 @@ class PID {
       integral = constrain(integral, -255, 255);
       
       float derivative = (error - previousError) / elapsedTime;
-      float output = Kp * error + Ki * integral + Kd * derivative; // u(t) = Kp *e(t) + Kp * d/dt e(t)
+      float output = Kp * error + Ki * integral + Kd * derivative; // u(t) = Kp *e(t) + Ki * ∫ e(t) dt   + Kd * d/dt e(t)
 
       output = constrain(output, 0, 255);
 
@@ -48,17 +48,12 @@ class SoftStartFilter {
     }
 
     float smooth(float currentOutput) {
-      smoothedOutput = alpha * currentOutput + (1 - alpha) * smoothedOutput;
-      
-      if (isinf(smoothedOutput) || isnan(smoothedOutput)) {
-        smoothedOutput = 0;
-      }
-      
+      smoothedOutput = alpha * currentOutput + (1 - alpha) * smoothedOutput; // y[n] = α x[n] + (1 - α) y[n-1]      
       return smoothedOutput;
     }
 };
 
-PID motorPID(1.0, 0.5, 0.1);       // Kp, Ki, Kd
+PID motorPID(1.0, 0.5, 0.1);        // Kp, Ki, Kd
 SoftStartFilter softStart(0.6);     // alpha 
 const int motorPin = 9;             // Motor control pin
 const int setPoint = 500;           // Desired motor speed
